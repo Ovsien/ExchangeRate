@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Exchange rate</string>
     <string name="value">Текущий курс: </string>
-    <string name="previous">Предыдщий курс: </string>
+    <string name="previous">Предыдущий курс: </string>
 </resources>
