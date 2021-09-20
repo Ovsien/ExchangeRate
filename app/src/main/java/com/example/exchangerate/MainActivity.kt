@@ -43,14 +43,14 @@ class MainActivity : AppCompatActivity() {
                 init()
 
                 //#Strar test part
-                val map = exchangeRate?.valuteInfo
+                /*val map = exchangeRate?.valuteInfo
 
                 map?.forEach { valute ->
                     Log.d(
                         "Result: " ,
                         valute.key + " " + valute.value.name + " " + valute.value.value
                     )
-                }
+                }*/
                 ////#End test part
             }
 

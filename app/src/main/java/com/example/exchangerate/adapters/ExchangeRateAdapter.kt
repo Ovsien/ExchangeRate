@@ -30,6 +30,9 @@ class ExchangeRateAdapter(private val valuteList : ArrayList<ValuteInfo>) :
 
         fun bind(valuteInfo : ValuteInfo) = with(binding) {
             valuteName.text = valuteInfo.name
+            charCode.text = ("(${valuteInfo.charCode})")
+            value.text = valuteInfo.value.toString()
+            previous.text = valuteInfo.previous.toString()
         }
     }
 }
